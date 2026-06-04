@@ -1,0 +1,9 @@
+{
+  "env": {
+    "GITHUB_ENTERPRISE_URL": "",
+    "CONFLUENCE_URL": "",
+    "CONFLUENCE_TOKEN": "",
+    "JIRA_URL": "",
+    "JIRA_TOKEN": ""
+  }
+}

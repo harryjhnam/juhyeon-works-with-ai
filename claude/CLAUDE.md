@@ -86,6 +86,7 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 ## Internal Tools
+Configure your URLs and tokens in `.claude/settings.local.json` — see `.claude/settings.local.json.example`.
 - `{COMPANY_GITHUB_ENTERPRISE_URL}` : Use `gh` CLI (GHES)
 - `{COMPANY_CONFLUENCE_URL}`, `{COMPANY_JIRA_URL}` : **{COMPANY_NAME} WebFetch, ALWAYS use `curl` with TOKEN**
   - **IMPORTANT: ALWAYS wrap curl commands with `bash -c '\''...'\''` to prevent variable expansion issues**

@@ -1,3 +1,5 @@
+[한국어](README.ko.md) | **English**
+
 # juhyeon-works-with-ai
 
 A personal collection of prompts, configs, and workflows I use to work with AI — not to chase new tools, but to solve problems faster.
@@ -17,16 +19,30 @@ That mindset shapes how I build these workflows — each one exists because it s
 ### ⚙️ [`claude/CLAUDE.md`](./claude/CLAUDE.md)
 My personal CLAUDE.md config for day-to-day engineering work.
 - Patches common vibe-coding pitfalls (inspired by Karpathy's observations)
-- Gives lightweight feedback on business English when I write prompts in English as a non-native speaker
-- Tracks `TODO`s and `LEARNINGS` so improvements accumulate over time
+- Gives lightweight feedback on business English when I write prompts as a non-native speaker
+- Logs workflow improvements to `agent-notes/` so they accumulate over time
+- Internal tool patterns for Confluence, Jira, and GitHub Enterprise (configured via `.claude/settings.local.json`)
 
-### 💬 [`prompts/`](./prompts/)
+### 💬 [`system_prompts/`](./system_prompts/)
 Reusable prompts I've found genuinely useful.
 
-| File | Description |
-|------|-------------|
-| [`coding-interview-en.md`](./prompts/coding-interview-en.md) | Coding interview prep — English version |
-| [`coding-interview-ko.md`](./prompts/coding-interview-ko.md) | Coding interview prep — Korean version (한국어) |
+| Prompt | Audience | Language |
+|--------|----------|----------|
+| [`coding-interview/en.md`](./system_prompts/coding-interview/en.md) | International / London | English |
+| [`coding-interview/ko.md`](./system_prompts/coding-interview/ko.md) | Korean companies / 한국 기업 | 한국어 |
+
+### 🗂️ [`agent-notes/`](./agent-notes/)
+Claude writes here automatically — not a manual journal.
+- `todo/` — actionable workflow improvements to act on
+- `learnings/` — reusable takeaways that carry across projects
+
+---
+
+## Setup
+
+1. Copy `claude/CLAUDE.md` to `~/.claude/CLAUDE.md`
+2. Copy `.claude/settings.local.json.example` to `.claude/settings.local.json` and fill in your values
+3. Copy `agent-notes/` to your working root directory
 
 ---
 
