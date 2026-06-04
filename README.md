@@ -1,4 +1,6 @@
-[한국어](README.ko.md) | **English**
+<div align="right">
+  <a href="README.ko.md">🇰🇷 한국어</a> &nbsp;|&nbsp; 🇬🇧 <strong>English</strong>
+</div>
 
 # juhyeon-works-with-ai
 
@@ -16,13 +18,6 @@ That mindset shapes how I build these workflows — each one exists because it s
 
 ## Contents
 
-### ⚙️ [`claude/CLAUDE.md`](./claude/CLAUDE.md)
-My personal CLAUDE.md config for day-to-day engineering work.
-- Patches common vibe-coding pitfalls (inspired by Karpathy's observations)
-- Gives lightweight feedback on business English when I write prompts as a non-native speaker
-- Logs workflow improvements to `agent-notes/` so they accumulate over time
-- Internal tool patterns for Confluence, Jira, and GitHub Enterprise (configured via `.claude/settings.local.json`)
-
 ### 💬 [`system_prompts/`](./system_prompts/)
 Reusable prompts I've found genuinely useful.
 
@@ -30,6 +25,13 @@ Reusable prompts I've found genuinely useful.
 |--------|----------|----------|
 | [`coding-interview/en.md`](./system_prompts/coding-interview/en.md) | International / London | English |
 | [`coding-interview/ko.md`](./system_prompts/coding-interview/ko.md) | Korean companies / 한국 기업 | 한국어 |
+
+### ⚙️ [`claude/CLAUDE.md`](./claude/CLAUDE.md)
+My personal CLAUDE.md config for day-to-day engineering work.
+- Patches common vibe-coding pitfalls (inspired by Karpathy's observations)
+- Gives lightweight feedback on business English when I write prompts as a non-native speaker
+- Logs workflow improvements to `agent-notes/` so they accumulate over time
+- Internal tool patterns for Confluence, Jira, and GitHub Enterprise (configured via `.claude/settings.local.json`)
 
 ### 🗂️ [`agent-notes/`](./agent-notes/)
 Claude writes here automatically — not a manual journal.
