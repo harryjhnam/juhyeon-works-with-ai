@@ -1,4 +1,4 @@
-<div align="right">
+<div align="center">
   <a href="README.md">🇬🇧 English</a> &nbsp;|&nbsp; 🇰🇷 <strong>한국어</strong>
 </div>
 
@@ -10,21 +10,21 @@ AI와 함께 일하면서 쌓은 프롬프트, 설정, 워크플로우 모음입
 
 ## 철학
 
-저는 AI를 마법 지팡이가 아니라 힘 배수기(force multiplier)로 봅니다. 새 모델이나 프레임워크에 손을 뻗기 전에, 먼저 묻습니다: *실제 문제가 무엇이고, 이것이 맞는 도구인가?*
+저는 AI를 뾰로롱 마법 지팡이가 아닌 단순한 지렛대로 봅니다. 새 모델이나 프레임워크를 막무가내로 도입하기 전에 먼저 묻습니다: *실제 문제가 무엇이고, 이것이 맞는 도구인가?*
 
-이 워크플로우들은 모두 실제로 겪은 마찰을 해결하면서 만들어졌고, 계속 다듬어가고 있습니다.
+이 워크플로우들은 모두 실제로 업무 상 겪은 마찰들을 해결하면서 만들어졌고 계속 다듬어가고 있습니다.
 
 ---
 
 ## 구성
 
 ### 💬 [`system_prompts/`](./system_prompts/)
-실제로 유용하게 사용하고 있는 프롬프트 모음입니다.
+실제로 유용하게 사용하고 있는 ChatGPT 시스템 프롬프트 모음입니다.
 
-| 프롬프트 | 대상 | 언어 |
-|---------|------|------|
-| [`coding-interview/en.md`](./system_prompts/coding-interview/en.md) | 해외 / 런던 기업 | English |
-| [`coding-interview/ko.md`](./system_prompts/coding-interview/ko.md) | 한국 기업 | 한국어 |
+| 프롬프트 | 언어 |
+|---------|------|
+| [`coding-interview/en.md`](./system_prompts/coding-interview/en.md) | English |
+| [`coding-interview/ko.md`](./system_prompts/coding-interview/ko.md) | 한국어 |
 
 ### ⚙️ [`claude/`](./claude/)
 일상적인 엔지니어링 작업을 위한 개인 Claude Code 설정입니다. 설치 방법은 [`claude/README.md`](./claude/README.md)를 참고하세요.
@@ -33,11 +33,8 @@ AI와 함께 일하면서 쌓은 프롬프트, 설정, 워크플로우 모음입
 - 워크플로우 개선 사항을 `agent-notes/`에 자동 기록
 - Confluence, Jira, GitHub Enterprise 내부 툴 패턴
 
-### 🗂️ [`agent-notes/`](./agent-notes/)
-`claude/CLAUDE.md`에 정의된 워크플로우에 따라 Claude가 자동으로 기록하는 디렉토리입니다. 자세한 내용은 [`agent-notes/README.md`](./agent-notes/README.md)를 참고하세요.
-
 ---
 
 ## 소개
 
-저는 검색(Search) 전문 ML 엔지니어 남주현입니다. 엔지니어링과 AI에 대한 생각이 궁금하시다면 [GitHub 프로필 →](https://github.com/harryjhnam)을 확인해주세요.
+저는 검색(Search) 전문 ML 엔지니어 남주현입니다. 저에 대해 궁금하시다면 [GitHub 프로필 →](https://github.com/harryjhnam)을 확인해주세요.
