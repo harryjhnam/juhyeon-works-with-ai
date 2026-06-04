@@ -34,9 +34,7 @@ My personal Claude Code configuration for day-to-day engineering work. See [`cla
 - Internal tool patterns for Confluence, Jira, and GitHub Enterprise
 
 ### 🗂️ [`agent-notes/`](./agent-notes/)
-Claude writes here automatically — not a manual journal.
-- `todo/` — actionable workflow improvements to act on
-- `learnings/` — reusable takeaways that carry across projects
+Claude writes here automatically based on the workflow defined in `claude/CLAUDE.md`. See [`agent-notes/README.md`](./agent-notes/README.md) for details.
 
 ---
 

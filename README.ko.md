@@ -34,9 +34,7 @@ AI와 함께 일하면서 쌓은 프롬프트, 설정, 워크플로우 모음입
 - Confluence, Jira, GitHub Enterprise 내부 툴 패턴
 
 ### 🗂️ [`agent-notes/`](./agent-notes/)
-Claude가 자동으로 기록하는 디렉토리입니다. 직접 작성하는 노트가 아닙니다.
-- `todo/` — 실행할 워크플로우 개선 아이디어
-- `learnings/` — 프로젝트 간에 재사용 가능한 인사이트
+`claude/CLAUDE.md`에 정의된 워크플로우에 따라 Claude가 자동으로 기록하는 디렉토리입니다. 자세한 내용은 [`agent-notes/README.md`](./agent-notes/README.md)를 참고하세요.
 
 ---
 
