@@ -1,4 +1,4 @@
-<div align="right">
+<div align="center">
   <a href="README.ko.md">🇰🇷 한국어</a> &nbsp;|&nbsp; 🇬🇧 <strong>English</strong>
 </div>
 
@@ -19,12 +19,12 @@ That mindset shapes how I build these workflows — each one exists because it s
 ## Contents
 
 ### 💬 [`system_prompts/`](./system_prompts/)
-Reusable prompts I've found genuinely useful.
+My personal chatGPT system prompts I've found genuinely useful.
 
-| Prompt | Audience | Language |
-|--------|----------|----------|
-| [`coding-interview/en.md`](./system_prompts/coding-interview/en.md) | International / London | English |
-| [`coding-interview/ko.md`](./system_prompts/coding-interview/ko.md) | Korean companies / 한국 기업 | 한국어 |
+| Prompt | Language |
+|--------|----------|
+| [`coding-interview/en.md`](./system_prompts/coding-interview/en.md) | English |
+| [`coding-interview/ko.md`](./system_prompts/coding-interview/ko.md) | 한국어 |
 
 ### ⚙️ [`claude/`](./claude/)
 My personal Claude Code configuration for day-to-day engineering work. See [`claude/README.md`](./claude/README.md) for setup.
@@ -33,11 +33,8 @@ My personal Claude Code configuration for day-to-day engineering work. See [`cla
 - Logs workflow improvements to `agent-notes/` so they accumulate over time
 - Internal tool patterns for Confluence, Jira, and GitHub Enterprise
 
-### 🗂️ [`agent-notes/`](./agent-notes/)
-Claude writes here automatically based on the workflow defined in `claude/CLAUDE.md`. See [`agent-notes/README.md`](./agent-notes/README.md) for details.
-
 ---
 
-## About
+## About Me
 
 I'm Juhyeon, an ML engineer focused on search. If you're curious about how I think about engineering and AI more broadly, check out my [GitHub profile →](https://github.com/harryjhnam)
