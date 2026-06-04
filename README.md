@@ -26,25 +26,17 @@ Reusable prompts I've found genuinely useful.
 | [`coding-interview/en.md`](./system_prompts/coding-interview/en.md) | International / London | English |
 | [`coding-interview/ko.md`](./system_prompts/coding-interview/ko.md) | Korean companies / 한국 기업 | 한국어 |
 
-### ⚙️ [`claude/CLAUDE.md`](./claude/CLAUDE.md)
-My personal CLAUDE.md config for day-to-day engineering work.
+### ⚙️ [`claude/`](./claude/)
+My personal Claude Code configuration for day-to-day engineering work. See [`claude/README.md`](./claude/README.md) for setup.
 - Patches common vibe-coding pitfalls (inspired by Karpathy's observations)
 - Gives lightweight feedback on business English when I write prompts as a non-native speaker
 - Logs workflow improvements to `agent-notes/` so they accumulate over time
-- Internal tool patterns for Confluence, Jira, and GitHub Enterprise (configured via `.claude/settings.local.json`)
+- Internal tool patterns for Confluence, Jira, and GitHub Enterprise
 
 ### 🗂️ [`agent-notes/`](./agent-notes/)
 Claude writes here automatically — not a manual journal.
 - `todo/` — actionable workflow improvements to act on
 - `learnings/` — reusable takeaways that carry across projects
-
----
-
-## Setup
-
-1. Copy `claude/CLAUDE.md` to `~/.claude/CLAUDE.md`
-2. Copy `.claude/settings.local.json.example` to `.claude/settings.local.json` and fill in your values
-3. Copy `agent-notes/` to your working root directory
 
 ---
 

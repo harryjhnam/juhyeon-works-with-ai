@@ -26,25 +26,17 @@ AI와 함께 일하면서 쌓은 프롬프트, 설정, 워크플로우 모음입
 | [`coding-interview/en.md`](./system_prompts/coding-interview/en.md) | 해외 / 런던 기업 | English |
 | [`coding-interview/ko.md`](./system_prompts/coding-interview/ko.md) | 한국 기업 | 한국어 |
 
-### ⚙️ [`claude/CLAUDE.md`](./claude/CLAUDE.md)
-일상적인 엔지니어링 작업을 위한 개인 CLAUDE.md 설정입니다.
+### ⚙️ [`claude/`](./claude/)
+일상적인 엔지니어링 작업을 위한 개인 Claude Code 설정입니다. 설치 방법은 [`claude/README.md`](./claude/README.md)를 참고하세요.
 - 흔한 바이브 코딩 실수 방지 (Karpathy의 관찰에서 영감을 받음)
 - 비즈니스 영어 프롬프트 작성 시 자연스러운 표현 코칭
 - 워크플로우 개선 사항을 `agent-notes/`에 자동 기록
-- Confluence, Jira, GitHub Enterprise 내부 툴 패턴 (`.claude/settings.local.json`으로 설정)
+- Confluence, Jira, GitHub Enterprise 내부 툴 패턴
 
 ### 🗂️ [`agent-notes/`](./agent-notes/)
 Claude가 자동으로 기록하는 디렉토리입니다. 직접 작성하는 노트가 아닙니다.
 - `todo/` — 실행할 워크플로우 개선 아이디어
 - `learnings/` — 프로젝트 간에 재사용 가능한 인사이트
-
----
-
-## 설치
-
-1. `claude/CLAUDE.md`를 `~/.claude/CLAUDE.md`에 복사
-2. `.claude/settings.local.json.example`을 `.claude/settings.local.json`으로 복사 후 값 입력
-3. `agent-notes/`를 작업 루트 디렉토리에 복사
 
 ---
 
